@@ -149,4 +149,4 @@ Example (Vite):
 ## License
 
 This project is available for personal use and customization.
-(If you want, add an official `LICENSE` file like **MIT**.)
+
