@@ -1,16 +1,152 @@
-# React + Vite
+# Mayank Kashyap — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive developer portfolio built with **React** and **Tailwind CSS**, featuring smooth UI animations with **Framer Motion**, dark mode support, and sections for projects, skills, certifications, education, and contact.
 
-Currently, two official plugins are available:
+**Live Demo:** https://mk-dev-portfolio.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Portfolio Screenshot](docs/screenshot.png)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Modern landing page with animated hero section
+- Smooth scrolling navigation + mobile menu
+- Dark mode toggle (default enabled)
+- Scroll progress indicator
+- Responsive layout (mobile → desktop)
+- Sections included:
+  - Hero
+  - About
+  - Skills
+  - Projects
+  - Certifications
+  - Education
+  - Contact
+  - Footer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- **Framer Motion**
+- **React Icons**
+
+---
+
+## Project Structure
+
+```bash
+src/
+  components/
+    Navbar.jsx
+    ScrollProgress.jsx
+    SectionHeading.jsx
+    SectionWrapper.jsx
+  sections/
+    Hero.jsx
+    About.jsx
+    Skills.jsx
+    Projects.jsx
+    Certifications.jsx
+    Education.jsx
+    Contact.jsx
+    Footer.jsx
+  App.jsx
+  main.jsx
+public/
+  profile.jpg
+  projects/
+```
+
+---
+
+## Getting Started
+
+### 1) Clone the repo
+
+```bash
+git clone https://github.com/Mayankk05/portfolio-project.git
+cd portfolio-project
+```
+
+### 2) Install dependencies
+
+```bash
+npm install
+```
+
+### 3) Run locally
+
+```bash
+npm run dev
+```
+
+Open the URL shown in the terminal (commonly `http://localhost:5173`).
+
+---
+
+## Customization
+
+### Update profile picture
+Place your image here:
+
+```bash
+public/profile.jpg
+```
+
+### Update projects
+Edit:
+
+- `src/sections/Projects.jsx`
+
+Project images can be stored in:
+
+- `public/projects/`
+
+### Update certifications
+Edit:
+
+- `src/sections/Certifications.jsx`
+
+---
+
+## Contact Form (Web3Forms)
+
+The contact form posts to Web3Forms:
+
+- Endpoint: `https://api.web3forms.com/submit`
+- The `access_key` is currently present inside `src/sections/Contact.jsx`
+
+### Recommended improvement (security)
+Move the key to an environment variable (so it isn’t committed).
+
+Example (Vite):
+
+1. Create `.env`:
+   ```bash
+   VITE_WEB3FORMS_KEY=your_key_here
+   ```
+
+2. Use it in code:
+   ```js
+   access_key: import.meta.env.VITE_WEB3FORMS_KEY
+   ```
+
+---
+
+## Links
+
+- **Live:** https://mk-dev-portfolio.netlify.app/
+- **GitHub:** https://github.com/Mayankk05
+- **LinkedIn:** https://www.linkedin.com/in/mayank-kashyap-a6a03630a/
+- **Email:** kashyap05mayank@gmail.com
+
+---
+
+## License
+
+This project is available for personal use and customization.
+(If you want, add an official `LICENSE` file like **MIT**.)
