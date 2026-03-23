@@ -3,9 +3,8 @@
 A modern, responsive developer portfolio built with **React** and **Tailwind CSS**, featuring smooth UI animations with **Framer Motion**, dark mode support, and sections for projects, skills, certifications, education, and contact.
 
 **Live Demo:** https://mk-dev-portfolio.netlify.app/
+<img width="1099" height="941" alt="Screenshot 2026-03-23 082557" src="https://github.com/user-attachments/assets/96632069-6fc8-4463-bf71-4c0ca064f874" />
 
-![Portfolio Screenshot](<img width="1899" height="941" alt="Screenshot 2026-03-23 082557" src="https://github.com/user-attachments/assets/96632069-6fc8-4463-bf71-4c0ca064f874" />
-)
 
 ---
 
