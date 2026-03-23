@@ -7,25 +7,24 @@ import { HiShieldCheck, HiBadgeCheck } from 'react-icons/hi'
 
 const certifications = [
   {
-    title: 'AWS Certified Cloud Practitioner',
-    code: 'CLF-C02',
-    issuer: 'Amazon Web Services',
+    title: 'null',
+    code: 'null',
+    issuer: 'nulll',
     icon: FaAws,
     iconColor: '#ff9900',
     gradient: 'from-orange-500 to-yellow-500',
-    description: 'Validated cloud concepts, AWS services, security, architecture, pricing, and support knowledge.',
-    link: 'https://www.credly.com/badges/59cafd2e-d533-4876-86fa-a3841f682823/public_url',
+    description: 'null',
     bgPattern: 'radial-gradient(circle at 20% 50%, rgba(255,153,0,0.08) 0%, transparent 50%)',
   },
   {
-    title: 'Java Certification',
+    title: 'null',
     code: 'Skill Assessment',
-    issuer: 'HackerRank',
+    issuer: 'null',
     icon: SiHackerrank,
     iconColor: '#2ec866',
     gradient: 'from-green-500 to-emerald-500',
     description: 'Demonstrated proficiency in Java programming including OOP, data structures, and algorithms.',
-    link: 'https://www.hackerrank.com/certificates/iframe/ded4f6b2c18a',
+    link: ' null',
     bgPattern: 'radial-gradient(circle at 80% 50%, rgba(46,200,102,0.08) 0%, transparent 50%)',
   },
 ]
