@@ -31,7 +31,7 @@ const contactInfo = [
 
 export default function Contact({ darkMode }) {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
-  const [status, setStatus] = useState('idle') // idle | sending | sent | error
+  const [status, setStatus] = useState('idle')
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -42,7 +42,7 @@ export default function Contact({ darkMode }) {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          access_key: '45f9326a-dfdf-44fd-b9f2-328eb5670023', // ← Replace with your key from web3forms.com
+          access_key: 'Replace with your key from web3forms.com', 
           name: formData.name,
           email: formData.email,
           message: formData.message,
